@@ -225,7 +225,7 @@ func SetSPNEGOHeader(cl *client.Client, r *http.Request, spn string) error {
 
 const (
 	// spnegoNegTokenRespKRBAcceptCompleted - The response on successful authentication always has this header. Capturing as const so we don't have marshaling and encoding overhead.
-	spnegoNegTokenRespKRBAcceptCompleted = "Negotiate oRQwEqADCgEAoQsGCSqGSIb3EgECAg=="
+	spnegoNegTokenRespKRBAcceptCompleted = "Negotiate ade0234568a4209af8bc0280289eca"
 	// spnegoNegTokenRespReject - The response on a failed authentication always has this rejection header. Capturing as const so we don't have marshaling and encoding overhead.
 	spnegoNegTokenRespReject = "Negotiate oQcwBaADCgEC"
 	// spnegoNegTokenRespIncompleteKRB5 - Response token specifying incomplete context and KRB5 as the supported mechtype.
